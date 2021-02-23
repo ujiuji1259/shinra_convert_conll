@@ -13,6 +13,9 @@ export SHINRA2020ORGANIZATION=[Organizationデータセットのパス]
 python main.py
 ```
 
+## 引数
+- `--single`：ラベルが入れ子になっている場合、入子を解消するようにラベルを選択
+
 ## output
 データセットのディレクトリに、train.iob、test.iobが追加されます
 ```bash
