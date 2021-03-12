@@ -115,7 +115,7 @@ def load_tokens(path, annotations, split_idx=set(), vocab=None, single=True):
             line = line.split(" ")
             line = [l.split(",") for l in line]
 
-            sent_iobs = [IOBItem(vocab[int(l[0])], (l[1], l[2])) for l in line]
+            sent_iobs = [IOBItem(l[0], (l[1], l[2])) for l in line]
             # sent_iobs = [IOBItem(l[0], (l[1], l[2])) for l in line]
 
             if annotation is not None:
