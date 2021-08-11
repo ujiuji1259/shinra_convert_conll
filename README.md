@@ -10,7 +10,7 @@ export SHINRA2020JP5=[JP-5データセットのパス]
 export SHINRA2020LOCATION=[Locationデータセットのパス]
 export SHINRA2020ORGANIZATION=[Organizationデータセットのパス]
 
-python main.py
+python main.py --single
 ```
 
 ## 引数
